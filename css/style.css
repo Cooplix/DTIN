@@ -1,0 +1,73 @@
+/* źródła
+https://www.w3schools.com/css/default.asp
+http://htmlbook.ru/css
+https://stackoverflow.com/questions/12892726/how-to-style-css-role
+https://habr.com/ru/company/edison/blog/344878/  - make adaptive HTML in one line css
+
+ */
+
+
+body {
+	background: url("../images/pattern1.png");
+}
+
+.main {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 980px;
+}
+
+
+.main .head {
+	background-color: #FA8072FF;
+	padding: 15px;
+}
+
+.main .head h1 {
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.main .page {
+	padding: 15px;
+}
+
+.main h2 {
+	margin: 10px 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.main .flower {
+	font-size: 20pt;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.main p {
+	margin: 10px 0;
+}
+
+.main .gallery {
+	overflow: auto;
+}
+
+.main .gallery li {
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+
+.main .gallery img {
+	border: 5px solid #ccc;
+}
+
+.main .footer {
+	background-color: salmon;
+	color: #fff;
+	text-align: right;
+	padding: 15px;
+	font-weight: bold;
+}
